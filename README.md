@@ -26,7 +26,7 @@ changes under normoxic vs hypoxic conditions.
 
  ### Installation of Tools 
 
-**1. Install SRA Toolkit**  
+1. Install SRA Toolkit
 ```bash
 sudo apt install sra-toolkit 
 ## Check Installation 
