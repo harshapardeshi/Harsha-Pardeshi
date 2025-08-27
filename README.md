@@ -31,12 +31,13 @@ sudo apt install sra-toolkit
 ## Check Installation 
 fastq-dump --version
 
-### 2. Insatlling Core Tools using Conda 
-# Create new environment
+**2. Create New Environment**
+```bash
 conda create -n rnaseq_env
 conda activate rnaseq_env
 
-### 3. Install core tools
+**3. Install core tools**
+```bash
 conda install -c bioconda  fastqc multiqc hisat2
 
 ✅ After completing the installation, you are ready to download RNA-seq data from SRA.  
