@@ -24,3 +24,18 @@ changes under normoxic vs hypoxic conditions.
 - Guo H, Ci X, Ahmed M, et al. (2019). *ONECUT2 is a driver of neuroendocrine prostate cancer.*  
   **Nature Communications**, 10:278. https://doi.org/10.1038/s41467-018-08133-6  
  
+### Installation of Tools (Linux) 
+
+### 1. Install SRA Toolkit  
+sudo apt install sra-toolkit 
+## check installation 
+fastq-dump --version
+
+### 2. Insatlling Core Tools using Conda 
+# Create new environment
+conda create -n rnaseq_env
+conda activate rnaseq_env
+
+### 3. Install core tools
+conda install -c bioconda  fastqc multiqc hisat2
+
