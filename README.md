@@ -24,11 +24,10 @@ changes under normoxic vs hypoxic conditions.
 - Guo H, Ci X, Ahmed M, et al. (2019). *ONECUT2 is a driver of neuroendocrine prostate cancer.*  
   **Nature Communications**, 10:278. https://doi.org/10.1038/s41467-018-08133-6  
  
-### Installation of Tools (Linux) 
-
-### 1. Install SRA Toolkit  
+**1. Install SRA Toolkit**  
+```bash
 sudo apt install sra-toolkit 
-## check installation 
+## Check Installation 
 fastq-dump --version
 
 ### 2. Insatlling Core Tools using Conda 
@@ -38,4 +37,8 @@ conda activate rnaseq_env
 
 ### 3. Install core tools
 conda install -c bioconda  fastqc multiqc hisat2
+
+✅ After completing the installation, you are ready to download RNA-seq data from SRA.  
+Go to the **Download Data** section for instructions on fetching and converting `.sra` files into `.fastq.gz` format.  
+
 
